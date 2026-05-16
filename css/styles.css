@@ -6,15 +6,18 @@ text-align: center;
 .p1 {
     color: white;
     font-size: large;
+    text-align: center;
 
 }
 
 .headline {
+    display: block;
     color: saddlebrown;
     font-size: xx-large;
     font-family : sans-serif;
-    border: 2px darkgreen dotted;
+    border-bottom: 2px darkgreen dotted;
     border-width: 4px;
+    padding: 0 2px;
 }
 
 .ul {
@@ -31,7 +34,7 @@ text-align: center;
     text-align: left;
 }
 
-#recipe2 {
+.buttons {
     display: inline-block;
     padding: 10px;
     background: saddlebrown;
@@ -39,17 +42,8 @@ text-align: center;
     color: white;
     text-decoration: none;
     border-radius: 10px;
-}
 
-#recipe3 {
-    display: inline-block;
-    padding: 10px;
-    background: saddlebrown;
-    background-size: 10px;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-}
+
 
 }
 
